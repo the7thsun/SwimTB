@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args){
         //login as bot
         try {
-            jda = new JDABuilder(AccountType.BOT).setToken("NzMxMzQwMzY0ODIwMTE5NTc0.XwkoPg.0q-2qd3-fMnNI2obyxlkavDULkU").build();
+            jda = new JDABuilder(AccountType.BOT).setToken("").build();
         } catch (LoginException e) {
             e.printStackTrace();
         }
